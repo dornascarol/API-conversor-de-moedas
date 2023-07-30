@@ -3,24 +3,23 @@
 
 <h2> Este foi o projeto que aprendi no curso do DevClub </h2>
 
-<p> Aplicação básica de site para converter moedas. </p>
-<p> As moedas convertidas são Dólar Americano, Euro, Libra e Bitcoin. </p>
-<p> Os valores de cotação para essas variáveis estão fixas. E não atualizadas em tempo real.</p>
-<p> Possui uma pequena animação para diminuir o tamanho do ícone no lado superior da tela. </p>
+<p> Aplicação básica de site para converter a moeda Real Brasileiro para Dólar Americano, Euro, Libra e Bitcoin. Consumindo AwesomeAPI para atualizar os dados de um servidor. </p>
 
-<a href="https://conversor-de-moedas-carolina-dornas.netlify.app/"> :point_right: Link </a>
+<h2> Introdução </h2>
+<p> Consumir uma API que retornará os valores das moedas estrangeiras do dia em tempo real.  </p>
 
-<h3> Neste projeto foram utilizados: </h3>
-  :small_blue_diamond: HTML 
-<br>
-  :small_blue_diamond: CSS
-<br>
-  :small_blue_diamond: JavaScript 
-<br>
-  :small_blue_diamond: VS Code
+<h2> Ferramentas </h2>
+<p> Na aplicação foi utilizado <a href="https://docs.awesomeapi.com.br/api-de-moedas" target="_blank" > AwesomeAPI </a> . </p>
+<p> Na aplicação foi utilizado <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch" target="_blank" > Fetch </a> . </p>
+<p> Na aplicação foi utilizado <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function" target="_blank" > função assíncrona </a> (async / await). </p>
+<p> HTML, CSS e JavaScript. </p>
+
+## Parâmetro: rota da API
+:small_orange_diamond: `https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL` 
 <br>
 <br>
 
+## Imagem
 <div align="center">
   <a href="https://conversor-de-moedas-carolina-dornas.netlify.app/"> <img width="80%" src="https://github.com/dornascarol/Conversor-de-moedas/blob/main/assets/Projeto.png?raw=true"/> </a>
 </div>  
